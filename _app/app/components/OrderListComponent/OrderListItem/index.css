@@ -1,0 +1,52 @@
+.order-list-item {
+  display: flex;
+  padding: 10px;
+  color: #666666;
+}
+.order-list-item img,
+.order-list-item .list-content,
+.order-list-item .order-btn {
+  flex: 1;
+  display: flex;
+}
+.order-list-item .list-content {
+  flex-direction: column;
+  margin-left: 10px;
+}
+.order-list-item img {
+  width: 120px;
+  height: 90px;
+}
+.order-list-item .order-btn {
+  justify-content: center;
+  align-items: center;
+}
+.order-list-item .order-btn button {
+  height: 35px;
+  width: 60px;
+  background: #e9203d;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+}
+.order-list-item .order-btn .unselect {
+  background: #cccccc;
+}
+.comment-area {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.comment-area textarea {
+  border: 1px solid #ccc;
+  height: 70px;
+}
+.comment-area div {
+  display: flex;
+  flex-direction: row;
+}
+.comment-area div button {
+  width: 70px;
+  height: 35px;
+  text-align: center;
+}
